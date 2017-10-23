@@ -1,5 +1,6 @@
 package graph;
 
+// this is the edge class
 public class Edge {
 	Vertex first;
 	Vertex second;

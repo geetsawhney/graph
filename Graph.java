@@ -6,6 +6,7 @@ import java.util.HashMap;
 import stacks_queues.QueueEmptyException;
 import stacks_queues.QueueLL;
 
+// This is the Graph class
 public class Graph {
 
 	ArrayList<Vertex> vertices;

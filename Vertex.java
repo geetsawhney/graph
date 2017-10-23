@@ -2,6 +2,7 @@ package graph;
 
 import java.util.ArrayList;
 
+//Vertex class and all the helper methods
 public class Vertex {
 
 	private String name;
