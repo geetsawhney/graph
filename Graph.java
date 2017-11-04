@@ -155,7 +155,7 @@ public class Graph {
 		return false;
 	}
 
-	public boolean hasPath_BFS(String v1,String v2)
+	public boolean hasPath_BFS(String v1,String v2) // check path using bfs
 	{
 		Vertex vertex1 = getVertex(v1);
 		Vertex vertex2 = getVertex(v2);
