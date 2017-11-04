@@ -18,7 +18,7 @@ public class Graph {
 		vertices = new ArrayList<>();
 	}
 
-	public int numberEdges() {
+	public int numberEdges() { // get number of edges in the graph
 		int count = 0;
 		for (Vertex v: vertices) {
 			count += v.numberEdges();
@@ -197,7 +197,7 @@ public class Graph {
 		return false;
 	}
 
-	public boolean isConnected()
+	public boolean isConnected() //check if graph is connected
 	{
 		if(vertices.size()<2)
 		{
